@@ -7,7 +7,7 @@ class TestYouTubeSearch:
         # Desired capabilities for the Android device
         desired_caps = {
             'platformName': 'Android',
-            'deviceName': 'emulator-5554',  
+            'deviceName': 'Android Emulator',  
             'appPackage': 'com.google.android.youtube', 
             'appActivity': 'com.google.android.youtube.HomeActivity',  
             'automationName': 'UiAutomator2'
